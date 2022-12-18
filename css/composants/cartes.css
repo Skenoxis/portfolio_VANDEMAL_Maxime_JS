@@ -1,0 +1,64 @@
+.carte_projet{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20,83,100,255);
+    border: 5px solid rgb(20,83,100,255);
+}
+
+.carte_projet img{
+    width: 100%;
+}
+
+
+.carte_projet p{
+    color: white;
+    font-size: 20px;
+    font-family: 'calibri';
+}
+
+
+.container .carte_perso {
+    width: 300px;
+    margin-left: 60px;
+    color: white;
+    font-family: 'calibri';
+    
+}
+
+.container .carte_perso img {
+    width: 100%;
+    box-shadow: 
+    0 0 7px rgb(252 193 74), 
+    0 0 10px rgb(252 193 74);
+}
+
+.container .carte_perso * {
+    margin-bottom: 20px 
+    }
+
+.titre_carte_perso{
+    font-size: 25px;
+}
+
+.container .carte_perso p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px){
+
+    .titre_carte_perso{
+        font-size: 35px;
+    }
+
+    .container .carte_perso p{
+        font-size: 30px;
+    }
+
+    .carte_projet{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(20,83,100,255);
+        border: 5px solid rgb(20,83,100,255);
+    }
+    
+}

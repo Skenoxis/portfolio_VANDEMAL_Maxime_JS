@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    background-color: rgb(254,155,61,255);
+    height: 20vh;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    transition: 2s;
+}
+
+@media screen and (max-width: 480px){
+    header{
+        display: flex;
+        background-color: rgb(254,155,61,255);
+        height: 20vh;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .logo{
+        width: 20%;
+        margin-left: 20px;
+        border-radius: 50%;
+    }
+    
+    
+}

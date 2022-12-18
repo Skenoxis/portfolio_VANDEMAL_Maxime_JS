@@ -1,0 +1,190 @@
+@import url(composants/avatar.css);
+@import url(composants/buttons.css);
+@import url(composants/footer.css);
+@import url(composants/header.css);
+@import url(composants/nav_barre.css);
+@import url(composants/cartes.css);
+@import url(composants/containers.css);
+@import url(composants/banner.css);
+
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    transition: 2s;
+}
+
+body {
+    background-color: rgb(82, 82, 82);
+}
+
+.titre{
+    text-align: center;
+    font-size: 60px;
+    padding: 30px;
+    font-family: 'calibri';
+    color: rgb(255, 255, 255);
+    animation: mouvement_rotation 3s infinite;
+    width: 90vw;
+    margin: auto;
+    text-shadow: 
+    0 0 7px rgb(246, 168, 13),
+    0 0 10px rgb(246, 168, 13),
+    0 0 21px rgb(246, 168, 13);
+    transition: 2s;
+
+    
+}
+
+#galerie{
+    padding: 50px;
+    font-size: 50px;
+    font-family: 'calibri';
+    color: white;
+    animation: mouvement_haut 5s infinite;
+    text-shadow: 
+    0 0 7px rgb(246, 168, 13),
+    0 0 10px rgb(246, 168, 13),
+    0 0 21px rgb(246, 168, 13);
+
+}
+
+
+.texte_choix{
+    width: 500px;
+    font-size: 30px;
+    font-family: 'calibri';
+    color: white;
+    text-align: center;
+
+}
+
+.bloc{
+    display: block;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-bottom: 90px;
+}
+
+.bloc_titre{
+    color: white;
+    font-size: 50px;
+    font-family: 'calibri';
+    animation: mouvement_haut 3s infinite;
+    text-shadow: 
+    0 0 7px rgb(246, 168, 13),
+    0 0 10px rgb(246, 168, 13),
+    0 0 21px rgb(246, 168, 13);
+    transition:  2s;
+}
+
+.bloc_a_propos_texte{
+    color: white;
+    font-size: 25px;
+    font-family: 'calibri';
+    margin-top: 40px;
+    margin-left: 30px;
+
+    transition: all 2s;
+}
+
+.bloc p{
+    color: white;
+    font-size: 25px;
+    font-family: 'calibri';
+    margin-top: 40px;
+    margin-left: 30px;
+    transition:  2s;
+}
+
+
+/* ---------------------------- MODE NUIT ---------------------------- */
+
+
+
+.black2{
+    background-color: rgb(82, 82, 82) ;
+    transition: 2s;
+}
+
+.black3{
+    background-color: rgb(82, 82, 82);
+    border: 5px solid rgb(82, 82, 82);
+}
+
+
+
+.white{
+    background-color: rgb(247, 247, 247);
+}
+
+
+.animate_texte{
+    transform: translateX(200px);
+}
+
+.button_mouv{
+    transition: 2s;
+}
+
+.bloc_info p{
+    color: black ; 
+    transition:  2s;
+}
+
+/* ---------------------------------------------------------------------- */
+
+@media screen and (max-width: 480px){
+    .texte_choix{
+        width: 100%;
+        font-size: 30px;
+        font-family: 'calibri';
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+
+@keyframes mouvement_rotation {
+    0% {
+        transform: rotate(3deg);
+    }
+
+    33%{
+        transform: rotate(-3deg);
+    }
+
+    66%{
+        transform: rotate(-3deg);
+    }
+
+    100%{
+        transform: rotate(3deg);
+    }
+}
+
+
+@keyframes mouvement_haut {
+    0% {
+        transform: translate(0,5px);
+    }
+
+    33%{
+        transform: translate(0,-5px);
+    }
+
+    66%{
+        transform: translate(0,-5px);
+    }
+
+    100%{
+        transform: translate(0,5px);
+    }
+}
+

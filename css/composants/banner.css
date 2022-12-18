@@ -1,0 +1,45 @@
+.banner{
+    display: flex;
+    align-items: center;
+    background-image: url(../../assets/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    gap: 560px;
+    transition: 2s;
+
+}
+
+/* ----------------------------BANNIERE MODE NUIT ---------------------------- */
+
+
+.black_banner{
+    
+    display: flex;
+    align-items: center;
+    background-image: url(../../assets/images/banner_black.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    gap: 560px;
+    transition: 2s;
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+
+@media screen and (max-width: 480px){
+    .banner{
+        display: flex;
+        align-items: center;
+        background-image: url(../../assets/images/banner.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 90vh; 
+        gap: 0; 
+        flex-direction: column;  
+
+    }
+    
+}

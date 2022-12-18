@@ -1,0 +1,77 @@
+
+/* ---------------------------- MODE NUIT ---------------------------- */
+
+#btn {
+    width: 3%;
+    margin-left: 700px;
+
+}
+
+.btn_lune{
+    content: url(../../assets/images/lune.png);
+}
+
+
+
+
+/* ------------------------------------------------------------------- */
+
+.bouton_footer{
+    display: flex;
+    justify-content: center;
+}
+
+#button_footer{
+    color: white;
+}
+
+
+.btn_jaune {
+    border: 2px outset rgb(157, 154, 154);
+    background-color: rgb(253,202,59,255);
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'calibri';
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.btn_jaune:hover{
+    transition: all 0.5s;
+    border: 2px outset rgb(157, 154, 154);
+    background-color: rgb(206, 155, 26);
+    border-radius: 15px;
+    font-size: 21px;
+    font-family: 'calibri';
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.btn_orange {
+    border: 2px outset rgb(157, 154, 154);
+    background-color:  rgb(219, 143, 28);
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'calibri';
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.btn_orange:hover{
+    border: 2px outset rgb(157, 154, 154);
+    background-color: rgb(153, 100, 21);
+    border-radius: 15px;
+    font-size: 21px;
+    font-family: 'calibri';
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
